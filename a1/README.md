@@ -46,9 +46,6 @@
 
 ![JDK Installation Screenshot](img/jdk_install.PNG)
 
-*Screenshot of Android Studio - My First App*:
-
-![Android Studio Installation Screenshot](img/android.png)
 
 
 #### Tutorial Links:
