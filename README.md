@@ -9,9 +9,9 @@
 
 *Course Work Links:* 
 
-![A1 README.md](a1/README.md "My A1 README.md file")
+1. [A1 README.md](a1/README.md "My A1 README.md file")
     - Install something
     - Install something
 
-![A2 README.md](a2/README.md "My A2 README.md file")
+2. [A2 README.md](a2/README.md "My A2 README.md file")
 
