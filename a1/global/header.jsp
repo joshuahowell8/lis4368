@@ -1,2 +1,2 @@
-<h1>[assignment number here]</h1>
-<h3>[short assignment description here]</h3>
+<h1>[Assignment 1]</h1>
+<h3>[JDK and Tomcat installations]</h3>

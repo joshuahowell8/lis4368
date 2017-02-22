@@ -10,7 +10,15 @@
 *Course Work Links:* 
 
 1. [A1 README.md](a1/README.md "My A1 README.md file")
-    
+	- Install JDK
+	- Install Tomcat
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
+	- Download and install mySQL
+	- Set up different web pages
+	- Set up database to query results & display to website
+3. [A3 README.md](a3/README.md "My A3 README.md file")
+	- Design database
+	- Create ERD using mySQL Workbench
+	- Forward engineer database to server
 
