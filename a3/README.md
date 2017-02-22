@@ -24,8 +24,8 @@
 
 #### Tutorial Links:
 
-*Bitbucket Tutorial - Station Locations:*
+*A3 mwb requirement:*
 [A3 mwb requirement](https://bitbucket.org/jch10g/lis4368/src/0f6c8343f51306747916b1902856a4f0c48a4da9/a3/a3.mwb?at=master&fileviewer=file-view-default "a3.mwb")
 
-*Tutorial: Request to update a teammate's repository:*
+*A3 sql requirement:*
 [A3 sql requirement](https://bitbucket.org/jch10g/lis4368/src/0f6c8343f51306747916b1902856a4f0c48a4da9/a3/a3.sql?at=master&fileviewer=file-view-default "a3.sql")
