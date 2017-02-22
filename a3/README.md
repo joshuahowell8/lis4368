@@ -15,31 +15,17 @@
 2. Create ERD with appropriate tables and data
 3. Chapter Questions (Chs 7 - 8)
 
-#### README.md file should include the following items:
-
-* Screenshot of running ERD
-* Link to http://localhost:9999
-* Link to 
-
-> This is a blockquote.
-> 
-> This is the second paragraph in the blockquote.
->
-> #### Git commands w/short descriptions:
-
 
 #### Assignment Screenshots:
 
 *Screenshot of pet store ERD*:
 
-![pet store ERD Screenshot](img/ERD.png)
-
-
+![A3 ERD Screenshot](img/ERD.png)
 
 #### Tutorial Links:
 
 *Bitbucket Tutorial - Station Locations:*
-[A1 Bitbucket Station Locations Tutorial Link](https://bitbucket.org/jch10g/bitbucketstationlocations/ "Bitbucket Station Locations")
+[A3 mwb requirement](https://bitbucket.org/jch10g/lis4368/src/0f6c8343f51306747916b1902856a4f0c48a4da9/a3/a3.mwb?at=master&fileviewer=file-view-default "a3.mwb")
 
 *Tutorial: Request to update a teammate's repository:*
-[A1 My Team Quotes Tutorial Link](https://bitbucket.org/jch10g/myteamquotes/ "My Team Quotes Tutorial")
+[A3 sql requirement](https://bitbucket.org/jch10g/lis4368/src/0f6c8343f51306747916b1902856a4f0c48a4da9/a3/a3.sql?at=master&fileviewer=file-view-default "a3.sql")

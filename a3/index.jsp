@@ -31,7 +31,7 @@
 						<%@ include file="global/header.jsp" %>
 					</div>
 
-					<img src="img/ERD.png" class="img-responsive" alt="ERD" />
+					<img src="img/ERD.png" class="img-responsive center-block" alt="ERD" />
 
 					<br /> <br />
 				</div>
