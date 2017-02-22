@@ -24,8 +24,8 @@
 
 #### Tutorial Links:
 
-*A3 mwb requirement:*
+*Assignment 3 requirement:*
 [A3 mwb requirement](https://bitbucket.org/jch10g/lis4368/src/0f6c8343f51306747916b1902856a4f0c48a4da9/a3/a3.mwb?at=master&fileviewer=file-view-default "a3.mwb")
 
-*A3 sql requirement:*
+*Assignment 3 requirement:*
 [A3 sql requirement](https://bitbucket.org/jch10g/lis4368/src/0f6c8343f51306747916b1902856a4f0c48a4da9/a3/a3.sql?at=master&fileviewer=file-view-default "a3.sql")
