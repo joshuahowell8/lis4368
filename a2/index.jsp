@@ -8,7 +8,7 @@
 	<meta name="author" content="Josh Howell">
 	<link rel="icon" href="favicon.ico">
 
-	<title>LIS4368 - Assignment1</title>
+	<title>LIS4368 - Assignment 2</title>
 
 	<%@ include file="/css/include_css.jsp" %>		
 	
@@ -31,11 +31,27 @@
 						<%@ include file="global/header.jsp" %>
 					</div>
 
-					<img src="img/jdk_install.png" class="img-responsive" alt="JDK Installation" />
+					<img src="img/hello.png" class="img-responsive center-block" alt="hello" />
 
 					<br /> <br />
 
-					<img src="img/tomcat.png" class="img-responsive" alt="JDK Installation" />
+					<img src="img/index.png" class="img-responsive center-block" alt="index" />
+					
+					<br /> <br />
+
+					<img src="img/sayhello.png" class="img-responsive center-block" alt="sayhello" />
+					
+					<br /> <br />
+
+					<img src="img/querybook.png" class="img-responsive center-block" alt="querybook" />
+					
+					<br /> <br />
+
+					<img src="img/sayhi.png" class="img-responsive center-block" alt="sayhi" />
+					
+					<br /> <br />
+
+					<img src="img/queryresults.png" class="img-responsive center-block" alt="queryresults" />
 				</div>
 			</div>
 

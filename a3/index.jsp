@@ -32,7 +32,7 @@
 					</div>
 
 					<img src="img/ERD.png" class="img-responsive center-block" alt="ERD" />
-
+					
 					<br /> <br />
 				</div>
 			</div>
