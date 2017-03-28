@@ -263,7 +263,7 @@ $(document).ready(function() {
 							message: 'Phone must be 10 digits'
 						},
 						regexp: {
-							regexp: /^[0-9]+$/
+							regexp: /^[0-9]+$/,
 							message: 'Phone can only contain numbers'
 						},
 					},
@@ -294,6 +294,39 @@ $(document).ready(function() {
 									},																		
 							},
 					},
+					
+				balance: {
+					validators: {
+						notEmpty: {
+							message: 'Balance is required'
+						},
+						stringLength: {
+							min: 1,
+							max: 7,
+							message: 'Balance can be no more than 6 digits, including decimal point'
+						},
+						regexp: {
+							regexp: /^[0-9\.]+%/,
+							message: 'Balance can only contain numbers and decimal point'
+						},
+					},
+				},
+				total_sales: {
+					validators: {
+						notEmpty: {
+							message: 'Total sales required'
+						},
+						stringLength: {
+							min: 1,
+							max: 7,
+							message: 'Total sales can be no more than 6 digits, including decimal point'
+						},
+						regexp: {
+							regexp: /^[0-9\.]+$/,
+							message: 'Total sales can only contain numbers and decimal point'
+						},
+					},
+				},
 			}
 	});
 });
