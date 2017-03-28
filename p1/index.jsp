@@ -199,14 +199,7 @@ $(document).ready(function() {
 								},
 							},
 						},
-						
-				city: {
-						validators: {
-							
-						}
-				}
 				
-					
 				email: {
 							validators: {
 									notEmpty: {
