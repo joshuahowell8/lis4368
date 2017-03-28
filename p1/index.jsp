@@ -199,6 +199,24 @@ $(document).ready(function() {
 								},
 							},
 						},
+						
+				city: {
+					validators: {
+						notEmpty: {
+							message: 'City required'
+						},
+						stringLength: {
+							min: 1,
+							max: 30,
+							message: 'City no more than 30 characters'
+						},
+						//cities can contain hyphens: Winston-Salem
+						regexp: {
+							regexp: /^[a-zA-z0-9\-\s]+$/,
+							message: 'City can only contain letters, numbers, hyphens, and space chracter (29 Palms)'
+						},
+					},
+				},
 				
 				email: {
 							validators: {
