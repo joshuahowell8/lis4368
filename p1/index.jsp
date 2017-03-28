@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 <!--
-"Time-stamp: <Tue, 02-21-17, 21:58:59 Eastern Standard Time>"
+"Time-stamp: <Sat, 03-11-17, 14:37:04 Eastern Standard Time>"
 //-->
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="My online portfolio that illustrates skills acquired while working through various project requirements.">
-	<meta name="author" content="Josh Howell">
+	<meta name="author" content="Mark K. Jowett, Ph.D.">
 	<link rel="icon" href="favicon.ico">
 
-	<title>LIS4368 - Project 1</title>
+	<title>CRSXXXX - Project1 (Fix course number!)</title>
 
 	<%@ include file="/css/include_css.jsp" %>		
 
@@ -28,46 +28,44 @@
 	<div class="container">
 		<div class="starter-template">
 			<div class="row">
-				<div class="col-sm-8 col-sm-offset-2">
+				<div class="col-xs-12">
 					
 					<div class="page-header">
 						<%@ include file="global/header.jsp" %>
 					</div>
-
-					<h2>Customers</h2>
 					
 					<form id="add_customer_form" method="post" class="form-horizontal" action="#">
 
 						<div class="form-group">
-							<label class="col-sm-3 control-label">FName:</label>
-							<div class="col-sm-5">
+							<label class="col-sm-4 control-label">FName:</label>
+							<div class="col-sm-4">
 								<input type="text" class="form-control" name="fname" />
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label class="col-sm-3 control-label">LName:</label>
-							<div class="col-sm-5">
+							<label class="col-sm-4 control-label">LName:</label>
+							<div class="col-sm-4">
 								<input type="text" class="form-control" name="lname" />
 							</div>
 						</div>						
 
 						<div class="form-group">
-							<label class="col-sm-3 control-label">Email:</label>
-							<div class="col-sm-5">
+							<label class="col-sm-4 control-label">Email:</label>
+							<div class="col-sm-4">
 								<input type="text" class="form-control" name="email" />
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label class="col-sm-3 control-label">Notes:</label>
-							<div class="col-sm-5">
+							<label class="col-sm-4 control-label">Notes:</label>
+							<div class="col-sm-4">
 								<input type="text" class="form-control" maxlength="255" name="notes" />
 							</div>
 						</div>
 						
 						<div class="form-group">
-							<div class="col-sm-5 col-sm-offset-3">
+							<div class="col-sm-6 col-sm-offset-3">
 								<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Submit</button>
 							</div>
 						</div>
