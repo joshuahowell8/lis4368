@@ -235,6 +235,40 @@ $(document).ready(function() {
 					},
 				},
 				
+				zip: {
+					validators: {
+						notEmpty: {
+							message: 'Zip required, only numbers'
+						},
+						stringLength: {
+							min: 5,
+							max: 9,
+							message: 'Zip must be 5, and no more than 9 digits'
+						},
+						regexp: {
+							regexp: /^[0-9]+$/,
+							message: 'Zip can only contain numbers'
+						},
+					},
+				},
+				
+				phone: {
+					validators: {
+						notEmpty: {
+							message: 'Phone required, including area code, only numbers'
+						},
+						stringLength: {
+							min: 10,
+							max: 10,
+							message: 'Phone must be 10 digits'
+						},
+						regexp: {
+							regexp: /^[0-9]+$/
+							message: 'Phone can only contain numbers'
+						},
+					},
+				},
+				
 				email: {
 							validators: {
 									notEmpty: {
