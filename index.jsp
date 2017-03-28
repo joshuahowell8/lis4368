@@ -69,12 +69,12 @@ h2
        <!-- Carousel items -->
         <div class="carousel-inner">
 
-				 <div class="active item" style="background: url(img/CyberSecurity.jpg) no-repeat left center; background-size: cover;">
+				 <div class="active item" style="background: url(img/Josh_Headshot.png) no-repeat left center; background-size: cover;">
 					 <div class="container">
 						 <div class="carousel-caption">
-								<h3>First slide label.</h3>
+								<h3>Joshua C. Howell</h3>
 							 <p class="lead">If you spend more on your coffee than cyber security, then you will be hacked. </p>
-							 <a class="btn btn-large btn-primary" href="#">Learn more</a>
+							 <a class="btn btn-large btn-primary" href="https://joshuachowell.wordpress.com/">Check out my website</a>
 						 </div>
 					 </div>
 				 </div>					
