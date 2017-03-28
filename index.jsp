@@ -79,12 +79,12 @@ h2
 					 </div>
 				 </div>					
 
-            <div class="active item" style="background: url(img/CyberSecurity.jpg) no-repeat left center; background-size: cover;">
+            <div class="item">
                 <h2>Slide 2</h2>
                 <div class="carousel-caption">
                   <h3>Second slide label</h3>
                   <p>Input text here.</p>
-						 <img src="img/slide2.png" alt="Slide 2">									
+						 <img src="img/CyberSecurity.jpg" alt="Slide 2">									
                 </div>
             </div>
 
