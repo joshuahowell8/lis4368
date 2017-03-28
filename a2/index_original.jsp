@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--
-"Time-stamp: <Sun, 02-19-17, 12:36:56 Eastern Standard Time>"
-//-->
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,8 +31,6 @@
 						<%@ include file="global/header.jsp" %>
 					</div>
 
-					<b>Servlet Compilation and Usage:</b><br />
-					<!-- <img src="img/using_servlets.png" class="img-responsive" alt="Using Servlets" />-->
 					<img src="img/hello.png" class="img-responsive center-block" alt="hello" />
 
 					<br /> <br />
@@ -48,22 +43,15 @@
 					
 					<br /> <br />
 
+					<img src="img/querybook.png" class="img-responsive center-block" alt="querybook" />
 					
+					<br /> <br />
 
 					<img src="img/sayhi.png" class="img-responsive center-block" alt="sayhi" />
 					
 					<br /> <br />
 
-					<br /> <br />
-					<b>Database Connectivity Using Servlets:</b><br />
-					<img src="img/querybook.png" class="img-responsive center-block" alt="querybook" />
-					
-					<br /> <br />
 					<img src="img/queryresults.png" class="img-responsive center-block" alt="queryresults" />
-					<!--<img src="img/database_connectivity1.png" class="img-responsive" alt="Database Connectivity Using Servlets" />
-				<br />
-					<img src="img/database_connectivity2.png" class="img-responsive" alt="Database Connectivity Using Servlets" />-->
-
 				</div>
 			</div>
 

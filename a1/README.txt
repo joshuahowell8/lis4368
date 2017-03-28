@@ -1,1 +1,1 @@
-See example README.md screenshots in Blackboard > Assignments.
+Delete this file and place *your* README.md file here.

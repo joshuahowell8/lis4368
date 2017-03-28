@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--
+"Time-stamp: <Sun, 02-19-17, 12:24:47 Eastern Standard Time>"
+//-->
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,11 +34,12 @@
 						<%@ include file="global/header.jsp" %>
 					</div>
 
+					<b>JDK Installation:</b><br />
 					<img src="img/jdk_install.PNG" class="img-responsive" alt="JDK Installation" />
 
 					<br /> <br />
-
-					<img src="img/tomcat.png" class="img-responsive" alt="JDK Installation" />
+					<b>Tomcat Installation:</b><br />
+					<img src="img/tomcat.png" class="img-responsive" alt="Tomcat Installation" />
 				</div>
 			</div>
 
