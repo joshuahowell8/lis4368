@@ -39,84 +39,84 @@
 					<form id="add_customer_form" method="post" class="form-horizontal" action="#">
 
 						<div class="form-group">
-							<label class="col-sm-4 control-label">FName:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">FName:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="15" name="fname" />
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label class="col-sm-4 control-label">LName:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">LName:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="30" name="lname" />
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label class="col-sm-4 control-label">Street:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">Street:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="30" name="street" />
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label class="col-sm-4 control-label">City:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">City:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="30" name="city" />
 							</div>
 						</div>	
 						
 						<div class="form-group">
-							<label class="col-sm-4 control-label">State:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">State:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="2" name="state" />
 							</div>
 						</div>
 						
 						<div class="form-group">
-							<label class="col-sm-4 control-label">Zip:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">Zip:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="9" name="zip" />
 							</div>
 						</div>
 						
 						<div class="form-group">
-							<label class="col-sm-4 control-label">Phone:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">Phone:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="10" name="phone" />
 							</div>
 						</div>
 
 						<div class="form-group">
-							<label class="col-sm-4 control-label">Email:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">Email:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="100" name="email" />
 							</div>
 						</div>
 						
 						<div class="form-group">
-							<label class="col-sm-4 control-label">Balance:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">Balance:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="7" name="balance" />
 							</div>
 						</div>
 						
 						<div class="form-group">
-							<label class="col-sm-4 control-label">Total Sales:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">Total Sales:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="7" name="total_sales" />
 							</div>
 						</div>
 						
 						<div class="form-group">
-							<label class="col-sm-4 control-label">Notes:</label>
-							<div class="col-sm-4">
+							<label class="col-sm-3 control-label">Notes:</label>
+							<div class="col-sm-5">
 								<input type="text" class="form-control" maxlength="255" name="notes" />
 							</div>
 						</div>
 						
 						<div class="form-group">
-							<div class="col-sm-6 col-sm-offset-3">
+							<div class="col-sm-5 col-sm-offset-3">
 								<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Submit</button>
 							</div>
 						</div>
