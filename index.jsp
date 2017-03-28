@@ -1,336 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--
-"Time-stamp: <Sat, 03-11-17, 14:37:04 Eastern Standard Time>"
-//-->
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="My online portfolio that illustrates skills acquired while working through various project requirements.">
-	<meta name="author" content="Josh Howell">
+	<meta name="author" content="Mark K. Jowett, Ph.D.">
 	<link rel="icon" href="favicon.ico">
 
-	<title>LIS4368 - Project 1 </title>
+	<title>My Online Portfolio</title>
 
 	<%@ include file="/css/include_css.jsp" %>		
 
+<!-- Carousel styles -->
+<style type="text/css">
+h2
+{
+	margin: 0;     
+	color: #666;
+	padding-top: 90px;
+	font-size: 52px;
+	font-family: "trebuchet ms", sans-serif;    
+}
+.item
+{
+	background: #333;    
+	text-align: center;
+	height: 300px !important;
+}
+.carousel
+{
+  margin: 20px 0px 20px 0px;
+}
+.bs-example
+{
+  margin: 20px;
+}
+</style>
+	
 </head>
 <body>
-
-<!-- display application path -->
-<% //= request.getContextPath()%>
 	
-<!-- can also find path like this...<a href="${pageContext.request.contextPath}${'/a5/index.jsp'}">A5</a> -->
-
-	<%@ include file="/global/nav.jsp" %>	
-
+	<%@ include file="/global/nav_global.jsp" %>	
+	
 	<div class="container">
-		<div class="starter-template">
-			<div class="row">
-				<div class="col-xs-12">
-					
-					<div class="page-header">
-						<%@ include file="global/header.jsp" %>
-					</div>
-					
-					<h2>Customers</h2>
-					
-					<form id="add_customer_form" method="post" class="form-horizontal" action="#">
-
-						<div class="form-group">
-							<label class="col-sm-3 control-label">FName:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="15" name="fname" />
-							</div>
+		 <div class="starter-template">
+						<div class="page-header">
+						<%@ include file="/global/header.jsp" %>							
 						</div>
 
-						<div class="form-group">
-							<label class="col-sm-3 control-label">LName:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="30" name="lname" />
-							</div>
-						</div>
+<!-- Start Bootstrap Carousel  -->
+<div class="bs-example">
+	<div
+      id="myCarousel"
+		class="carousel"
+		data-interval="1000"
+		data-pause="hover"
+		data-wrap="true"
+		data-keyboard="true"			
+		data-ride="carousel">
+		
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+       <!-- Carousel items -->
+        <div class="carousel-inner">
 
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Street:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="30" name="street" />
-							</div>
-						</div>
+				 <div class="active item" style="background: url(img/robot.jpg) no-repeat left center; background-size: cover;">
+					 <div class="container">
+						 <div class="carousel-caption">
+								<h3>First slide label.</h3>
+							 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
+							 <a class="btn btn-large btn-primary" href="#">Learn more</a>
+						 </div>
+					 </div>
+				 </div>					
 
-						<div class="form-group">
-							<label class="col-sm-3 control-label">City:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="30" name="city" />
-							</div>
-						</div>	
-						
-						<div class="form-group">
-							<label class="col-sm-3 control-label">State:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="2" name="state" />
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Zip:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="9" name="zip" />
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Phone:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="10" name="phone" />
-							</div>
-						</div>
+            <div class="item">
+                <h2>Slide 2</h2>
+                <div class="carousel-caption">
+                  <h3>Second slide label</h3>
+                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+						 <img src="img/slide2.png" alt="Slide 2">									
+                </div>
+            </div>
 
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Email:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="100" name="email" />
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Balance:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="7" name="balance" />
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Total Sales:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="7" name="total_sales" />
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<label class="col-sm-3 control-label">Notes:</label>
-							<div class="col-sm-5">
-								<input type="text" class="form-control" maxlength="255" name="notes" />
-							</div>
-						</div>
-						
-						<div class="form-group">
-							<div class="col-sm-5 col-sm-offset-3">
-								<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Submit</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
+            <div class="item">
+                <h2>Slide 3</h2>
+                <div class="carousel-caption">
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+						 <img src="img/slide3.png" class="img-responsive" alt="Slide 3">									
+                </div>
+            </div>
 
-	<%@ include file="/global/footer.jsp" %>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<!-- End Bootstrap Carousel  -->
+
+ 	<%@ include file="/global/footer.jsp" %>
 
 	</div> <!-- end starter-template -->
- </div> <!-- end container -->
+</div> <!-- end container -->
 
- 	<%@ include file="/js/include_js.jsp" %>		
- 
-<script type="text/javascript">
-$(document).ready(function() {
-
-	$('#add_customer_form').formValidation({
-			message: 'This value is not valid',
-			icon: {
-					valid: 'fa fa-check',
-					invalid: 'fa fa-times',
-					validating: 'fa fa-refresh'
-			},
-			fields: {
-
-				fname: {
-							validators: {
-									notEmpty: {
-											message: 'First name required'
-									},
-									stringLength: {
-											min: 1,
-											max: 15,
-											message: 'First name no more than 15 characters'
-									},
-									regexp: {
-										//http://www.regular-expressions.info/
-										//http://www.regular-expressions.info/quickstart.html
-										//http://www.regular-expressions.info/shorthand.html
-										//http://stackoverflow.com/questions/13283470/regex-for-allowing-alphanumeric-and-space
-										//alphanumeric (also, "+" prevents empty strings):
-										regexp: /^[a-zA-Z\-]+$/,
-										message: 'First name can only contain letters and hyphens.'
-									},									
-							},
-					},
-
-				lname: {
-							validators: {
-									notEmpty: {
-											message: 'Last name required'
-									},
-									stringLength: {
-											min: 1,
-											max: 30,
-											message: 'Last name no more than 30 characters'
-									},
-									regexp: {
-										regexp: /^[a-zA-Z\-]+$/,
-										message: 'Last name can only contain letters and hyphens'
-									},									
-							},
-					},
-					
-				street: {
-							validators: {
-								notEmpty: {
-									message: 'Street required'
-								},
-								stringLength: {
-									min: 1,
-									max: 30,
-									message: 'Street no more than 30 characters'
-								},
-								regexp: {
-									//street: only letters, numbers, comma, space character, and period
-									regexp: /^[a-zA-Z0-9,\-\s\.]+$/,
-									message: 'Street can only contain letters, numbers, commas, hyphens, or periods'
-								},
-							},
-						},
-						
-				city: {
-					validators: {
-						notEmpty: {
-							message: 'City required'
-						},
-						stringLength: {
-							min: 1,
-							max: 30,
-							message: 'City no more than 30 characters'
-						},
-						//cities can contain hyphens: Winston-Salem
-						regexp: {
-							regexp: /^[a-zA-z0-9\-\s]+$/,
-							message: 'City can only contain letters, numbers, hyphens, and space chracter (29 Palms)'
-						},
-					},
-				},
-				
-				state: {
-					validators: {
-						notEmpty: {
-							message: 'State required'
-						},
-						stringLength: {
-							min: 2,
-							max: 2,
-							message: 'State must be two characters'
-						},
-						regexp: {
-							regexp: /^[a-zA-Z]+$/,
-							message: 'State can only contain letters'
-						},
-					},
-				},
-				
-				zip: {
-					validators: {
-						notEmpty: {
-							message: 'Zip required, only numbers'
-						},
-						stringLength: {
-							min: 5,
-							max: 9,
-							message: 'Zip must be 5, and no more than 9 digits'
-						},
-						regexp: {
-							regexp: /^[0-9]+$/,
-							message: 'Zip can only contain numbers'
-						},
-					},
-				},
-				
-				phone: {
-					validators: {
-						notEmpty: {
-							message: 'Phone required, including area code, only numbers'
-						},
-						stringLength: {
-							min: 10,
-							max: 10,
-							message: 'Phone must be 10 digits'
-						},
-						regexp: {
-							regexp: /^[0-9]+$/,
-							message: 'Phone can only contain numbers'
-						},
-					},
-				},
-				
-				email: {
-							validators: {
-									notEmpty: {
-											message: 'Email address is required'
-									},
-
-									/*
-									//built-in e-mail validator, comes with formValidation.min.js
-									//using regexp instead (below)
-									emailAddress: {
-											message: 'Must include valid email address'
-									},
-									*/
-								
-									stringLength: {
-											min: 1,
-											max: 100,
-											message: 'Email no more than 100 characters'
-									},
-									regexp: {
-									regexp: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/,
-										message: 'Must include valid email'
-									},																		
-							},
-					},
-					
-				balance: {
-					validators: {
-						notEmpty: {
-							message: 'Balance is required'
-						},
-						stringLength: {
-							min: 1,
-							max: 7,
-							message: 'Balance can be no more than 6 digits, including decimal point'
-						},
-						regexp: {
-							regexp: /^[0-9\.]+%/,
-							message: 'Balance can only contain numbers and decimal point'
-						},
-					},
-				},
-				total_sales: {
-					validators: {
-						notEmpty: {
-							message: 'Total sales required'
-						},
-						stringLength: {
-							min: 1,
-							max: 7,
-							message: 'Total sales can be no more than 6 digits, including decimal point'
-						},
-						regexp: {
-							regexp: /^[0-9\.]+$/,
-							message: 'Total sales can only contain numbers and decimal point'
-						},
-					},
-				},
-			}
-	});
-});
-</script>
-
+ 	<%@ include file="/js/include_js.jsp" %>
+	
 </body>
 </html>

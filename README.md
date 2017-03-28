@@ -22,5 +22,5 @@
 	- Design database
 	- Create ERD using mySQL Workbench
 	- Forward engineer database to server
-4. [A4 README.md](a4/README.md "My A4 README.md file")
-	- Server side validation
+4. [P1 README.md](p1/README.md "My P1 README.md file")
+	- Client side validation
