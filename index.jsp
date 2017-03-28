@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="My online portfolio that illustrates skills acquired while working through various project requirements.">
-	<meta name="author" content="Mark K. Jowett, Ph.D.">
+	<meta name="author" content="Josh Howell">
 	<link rel="icon" href="favicon.ico">
 
 	<title>My Online Portfolio</title>
@@ -54,7 +54,7 @@ h2
 	<div
       id="myCarousel"
 		class="carousel"
-		data-interval="1000"
+		data-interval="3000"
 		data-pause="hover"
 		data-wrap="true"
 		data-keyboard="true"			
@@ -69,11 +69,11 @@ h2
        <!-- Carousel items -->
         <div class="carousel-inner">
 
-				 <div class="active item" style="background: url(img/robot.jpg) no-repeat left center; background-size: cover;">
+				 <div class="active item" style="background: url(img/CyberSecurity.jpg) no-repeat left center; background-size: cover;">
 					 <div class="container">
 						 <div class="carousel-caption">
 								<h3>First slide label.</h3>
-							 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
+							 <p class="lead">If you spend more on your coffee than cyber security, then you will be hacked. </p>
 							 <a class="btn btn-large btn-primary" href="#">Learn more</a>
 						 </div>
 					 </div>
