@@ -63,7 +63,7 @@ h2
     	<!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>   
        <!-- Carousel items -->
@@ -79,11 +79,11 @@ h2
 					 </div>
 				 </div>					
 
-            <div class="item">
+            <div class="active item" style="background: url(img/CyberSecurity.jpg) no-repeat left center; background-size: cover;">
                 <h2>Slide 2</h2>
                 <div class="carousel-caption">
                   <h3>Second slide label</h3>
-                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                  <p>Input text here.</p>
 						 <img src="img/slide2.png" alt="Slide 2">									
                 </div>
             </div>
