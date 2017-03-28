@@ -218,6 +218,23 @@ $(document).ready(function() {
 					},
 				},
 				
+				state: {
+					validators: {
+						notEmpty: {
+							message: 'State required'
+						},
+						stringLength: {
+							min: 2,
+							max: 2,
+							message: 'State must be two characters'
+						},
+						regexp: {
+							regexp: /^[a-zA-Z]+$/,
+							message: 'State can only contain letters'
+						},
+					},
+				},
+				
 				email: {
 							validators: {
 									notEmpty: {
