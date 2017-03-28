@@ -84,7 +84,7 @@ h2
                 <div class="carousel-caption">
                   <h3>Second slide label</h3>
                   <p>Input text here.</p>
-						 <img src="img/CyberSecurity.jpg" alt="Slide 2">									
+						 <img src="img/" alt="Slide 2">									
                 </div>
             </div>
 
