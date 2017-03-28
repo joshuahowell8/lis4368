@@ -235,6 +235,22 @@ $(document).ready(function() {
 					},
 				},
 				
+				zip: {
+					validators: {
+						notEmpty: {
+							message: 'Zip required, only numbers'
+						},
+						stringLength: {
+							min: 5,
+							max: 9,
+							message: 'Zip must be 5, and no more than 9 digits'
+						},
+						regexp: {
+							regexp: /^[0-9]+$/,
+							message: 'Zip can only contain numbers'
+						},
+					},
+				},
 				
 				
 				email: {
