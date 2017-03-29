@@ -20,7 +20,7 @@
 
 *Screenshot of pet store ERD*:
 
-![A3 ERD Screenshot](img/ERD.png)
+![A3 ERD Screenshot](img/a3.png)
 
 #### Tutorial Links:
 

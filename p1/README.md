@@ -13,14 +13,14 @@
 
 1. Add jQuery validation and regular expressions
 2. Use HTML5 property to limit number of characters for each control
-3. Chapter Questions (Chs 7 - 8)
+3. Chapter Questions (Chs 9, 10)
 
 
 #### Assignment Screenshots:
 
 *Screenshot of Main Splash page*:
 
-![P1 Splash Page Screenshot](img/xxx.png)
+![P1 Splash Page Screenshot](img/splash.png)
 
 #### Tutorial Links:
 
