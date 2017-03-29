@@ -63,7 +63,7 @@ h2
     	<!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>   
        <!-- Carousel items -->
@@ -72,8 +72,7 @@ h2
 				 <div class="active item" style="background: url(img/linkedin.jpg) no-repeat left center; background-size: cover;">
 					 <div class="container">
 						 <div class="carousel-caption">
-								<h3>Joshua C. Howell</h3>
-							 <p class="lead">Check out my LinkedIn! </p>
+							 <!-- <p class="lead">Check out my LinkedIn! </p>-->
 							 <a class="btn btn-large btn-primary" href="https://www.linkedin.com/in/josh-howell-276704115/">LinkedIn</a>
 						 </div>
 					 </div>
@@ -84,7 +83,7 @@ h2
                 <div class="carousel-caption">
                   <h3>Second slide label</h3>
                   <p>Check out my LinkedIn.</p>
-						 <img src="img/" alt="Slide 2">									
+						 <img src="img/car.jpg" alt="Slide 2">									
                 </div>
             </div>
 
@@ -93,7 +92,7 @@ h2
                 <div class="carousel-caption">
                   <h3>Third slide label</h3>
                   <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-						 <img src="img/slide3.png" class="img-responsive" alt="Slide 3">									
+						 <img src="img/uga.jpg" class="img-responsive" alt="Slide 3">									
                 </div>
             </div>
 
