@@ -6,11 +6,11 @@
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Input project description here.">
+	<meta name="description" content="Create a form that performs client-side validation">
 	<meta name="author" content="Josh Howell">
 	<link rel="icon" href="favicon.ico">
 
-	<title>CRSXXXX - JSP Forms</title>
+	<title>LIS4368 - JSP Forms</title>
 
 	<%@ include file="/css/include_css.jsp" %>		
 	
@@ -365,7 +365,7 @@ $(document).ready(function() {
 							message: 'Balance can be no more than 6 digits, including decimal point'
 						},
 						regexp: {
-							regexp: /^[0-9\.]+%/,
+							regexp: /^[0-9\.]+$/,
 							message: 'Balance can only contain numbers and decimal point'
 						},
 					},

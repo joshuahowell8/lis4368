@@ -18,15 +18,18 @@
 	- Download and install mySQL
 	- Set up different web pages
 	- Set up database to query results & display to website
+	
 3. [A3 README.md](a3/README.md "My A3 README.md file")
 	- Design database
 	- Create ERD using mySQL Workbench
 	- Forward engineer database to server
+	
 4. [P1 README.md](p1/README.md "My P1 README.md file")
+	- JQuery validation
+	- Regular Expressions
 	- Client side validation
-	-
-	-
+	
 5. [A4 README.md](a4/README.md "My a4 README.md file")
+	- Explore MVC model
+	- META-INF & WEB-INF directories
 	- Server side validation
-	- 
-	-
