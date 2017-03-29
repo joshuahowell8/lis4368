@@ -43,7 +43,7 @@
 			<label>Email:</label> ${user.email}<br />
 			<label>Balance:</label> ${user.balance}<br />
 			<label>Total Sales:</label> ${user.totalSales}<br />
-			<label>Notes:</label> ${user.notes}<br />
+			<label>Notes:</label> ${user.notes}<br /><br />
 			
 			
 
