@@ -8,7 +8,7 @@
 	<meta name="author" content="Josh Howell">
 	<link rel="icon" href="favicon.ico">
 
-	<title>My Online Portfolio</title>
+	<title>Josh's Portfolio</title>
 
 	<%@ include file="/css/include_css.jsp" %>		
 
@@ -69,21 +69,21 @@ h2
        <!-- Carousel items -->
         <div class="carousel-inner">
 
-				 <div class="active item" style="background: url(img/Josh_Headshot.png) no-repeat left center; background-size: cover;">
+				 <div class="active item" style="background: url(img/linkedin.jpg) no-repeat left center; background-size: cover;">
 					 <div class="container">
 						 <div class="carousel-caption">
 								<h3>Joshua C. Howell</h3>
-							 <p class="lead">If you spend more on your coffee than cyber security, then you will be hacked. </p>
-							 <a class="btn btn-large btn-primary" href="https://joshuachowell.wordpress.com/">Check out my website</a>
+							 <p class="lead">Check out my LinkedIn! </p>
+							 <a class="btn btn-large btn-primary" href="https://www.linkedin.com/in/josh-howell-276704115/">LinkedIn</a>
 						 </div>
 					 </div>
 				 </div>					
 
             <div class="item">
-                <h2>Slide 2</h2>
+                <h2>LinkedIn</h2>
                 <div class="carousel-caption">
                   <h3>Second slide label</h3>
-                  <p>Input text here.</p>
+                  <p>Check out my LinkedIn.</p>
 						 <img src="img/" alt="Slide 2">									
                 </div>
             </div>
