@@ -45,7 +45,7 @@
 						
 					<c:set var="anum" value="${param.assign_num}" scope="request" />
 					<!-- Uncomment to Print: -->
-					 <c:out value="${anum}" /> 
+					<%-- <c:out value="${anum}" /> --%>
 					<c:choose>
 						<c:when test="${anum == null || anum == '0'}">
 						<%@ include file="/global/header.jsp" %>
