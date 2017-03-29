@@ -1,0 +1,4 @@
+- keep following files in this directory:
+    - nav.jsp: for assignment/project links
+    - nav_global.jsp: for index.jsp in root directory
+    - both footer.jsp and header.jsp for main index.jsp in root directory
