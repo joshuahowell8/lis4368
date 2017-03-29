@@ -185,7 +185,7 @@ public class Customer implements Serializable
 	}
 	
 	//notes
-	public String setNotes()
+	public String getNotes()
 	{
 		return notes;
 	}
