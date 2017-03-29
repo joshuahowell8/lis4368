@@ -20,11 +20,11 @@
 
 *Screenshot of failed validation*:
 
-![A4 failed validation screenshot](img/failedValidation.png)
+![A4 failed validation screenshot](../img/failedValidation.png)
 
 *Screenshot of successful validation
 
-![A4 successful validation screenshot](img/successfulValidation.png)
+![A4 successful validation screenshot](../img/successfulValidation.png)
 
 #### Tutorial Links:
 
