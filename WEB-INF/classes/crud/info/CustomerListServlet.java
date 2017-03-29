@@ -49,12 +49,20 @@ public class CustomerListServlet extends HttpServlet
 				//Reality-check: zip should be int, phone long, balance and totalSales BigDecimal data types
 				String firstName = request.getParameter("fname");
 				String lastName = request.getParameter("lname");
+				String street = request.getParameter("street");
+				String city = request.getParameter("city");
+				String state = request.getParameter("state");
+				String zip = request.getParameter("zip");
+				String phone = request.getParameter("phone");
 				String email = request.getParameter("email");
+				String balance = request.getParameter("balance");
+				String totalSales = request.getParameter("total_sales");
+				String notes = request.getParameter("notes");
 
 				String message; //display entry issues encountered to user
 				
 				// store data in Customer object: user
-				Customer user = new Customer(firstName, lastName, email);
+				Customer user = new Customer(firstName, lastName, street, city, state, zip, phone, email, balance, totalSales, notes);
 
 				//here: check *only* for data entry
 				//empty string: string with zero length.
@@ -62,8 +70,14 @@ public class CustomerListServlet extends HttpServlet
 				
 				//Reality-check: in production environment need rigorous data validation:
 				//http://java-source.net/open-source/validation
-				if (firstName == null || lastName == null || email == null ||
-						firstName.isEmpty() || lastName.isEmpty() || email.isEmpty())
+				if (
+					firstName == null || lastName == null || street == null || 
+					city == null || state == null || zip == null || phone == null || 
+					email == null || balance == null || totalSales == null || 
+					firstName.isEmpty() || lastName.isEmpty() || street.isEmpty() || 
+					city.isEmpty() || state.isEmpty() || zip.isEmpty() || phone.isEmpty() || 
+					email.isEmpty() || balance.isEmpty() || totalSales.isEmpty()
+					)
 					{
 						message = "All text boxes required except Notes.";
 						url = "/customerform.jsp";
