@@ -11,8 +11,9 @@
 
 *Sub-Heading:*
 
-1. 
-2. 
+1. Present user form
+2. Validate user entry
+3. Ensure data is in database
 3. Chapter Questions (Chs 13-15)
 
 
@@ -28,7 +29,7 @@
 
 *Screenshot of database entry*
 
-![A5 database entry](../img/a53.png)
+![A5 database entry](../img/a53.PNG)
 
 #### Tutorial Links:
 
