@@ -19,6 +19,9 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
  
 import crud.business.Customer;
+import crud.data.CustomerDB;
+
+//servlet mapping for Servlet 3.0
 
 //servlet CustomerList is mapped to the URL pattern /customerList. When accessing this servlet, it will return a message.
 @WebServlet("/customerList")
@@ -86,6 +89,7 @@ public class CustomerListServlet extends HttpServlet
 					{
 						message = "";
 						url = "/thanks.jsp";
+						CustomerDB.insert(user);
 					}
 				request.setAttribute("user", user);
 				request.setAttribute("message", message);

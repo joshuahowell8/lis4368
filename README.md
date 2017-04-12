@@ -33,3 +33,8 @@
 	- Explore MVC model
 	- META-INF & WEB-INF directories
 	- Server side validation
+	
+6. [A5 README.md](a5/README.md "My a5 README.md file")
+	- Valid user form entry
+	- Passed validation
+	- Database entry
