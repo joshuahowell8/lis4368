@@ -6,10 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="My online portfolio that illustrates skills acquired while working through various project requirements.">
-	<meta name="author" content="Mark K. Jowett, Ph.D.">
+	<meta name="author" content="Josh Howell">
 	<link rel="icon" href="favicon.ico">
 
-	<title>CRSXXXX - JSP Forms</title>
+	<title>LIS4368 - JSP Forms</title>
 
 	<%@ include file="/css/include_css.jsp" %>		
 	
@@ -32,7 +32,7 @@
     <p>Here is the information that you entered:</p>
 
 		<div class="col-xs-12 col-sm-offset-4 text-left">
-			<%@ taglib prefix="c" url="http://java.sun.com/jsp/jstl/core"%>
+			<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 			
 			<% //<c:out... prevents cross-site scripting (XSS) attack (escapes output) %>
 			<label>FName:</label> <c:out value="${user.fname}" /> <br />
