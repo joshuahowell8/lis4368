@@ -51,8 +51,8 @@
 			<p>To enter another email address, <br />
 				click the Back button in your browser or Return button below.</p>
 							
-			<form action="" method="post">
-				<input type="hidden" name="action" value="join">
+			<form method="post" class="form-horizontal" action="${pageContext.request.contextPath}/customerAdmin">
+				<input type="hidden" name="thanks" value="join">
 				<input type="submit" value="Return">
 			</form>
 			

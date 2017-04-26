@@ -17,7 +17,6 @@ import java.io.Serializable;
 //Reality-check: zip should be int, phone long, balance and totalSales BigDecimal data types
 public class Customer implements Serializable
 {
-	private String id; //*be sure* to add customer's id throughout the application
 	private String fname;
 	private String lname;
 	private String street;
@@ -33,7 +32,6 @@ public class Customer implements Serializable
 	//default constructor
 	public Customer()
 	{
-		id = "";
 		fname = "";
 		lname = "";
 		street = "";
@@ -49,13 +47,12 @@ public class Customer implements Serializable
 
 	public Customer
 	(
-		String parId, String parFirstName, String parLastName, String parStreet,
+		String parFirstName, String parLastName, String parStreet,
 		String parCity, String parState, String parZip,
 		String parPhone, String parEmail, String parBalance,
 		String parTotalSales, String parNotes
 	)
 	{
-		this.id = parId;
 		this.fname = parFirstName;
 		this.lname = parLastName;
 		this.street = parStreet;
@@ -77,17 +74,6 @@ public class Customer implements Serializable
 */
 	
 	//getter/setter methods:
-	//id
-	public String getId()
-	{
-		return id;
-	}
-
-	public void setId(String parId)
-	{
-		this.id = parId;
-	}
-	
 	//fname
 	public String getFname()
 	{

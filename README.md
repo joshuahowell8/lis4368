@@ -38,3 +38,8 @@
 	- Valid user form entry
 	- Passed validation
 	- Database entry
+	
+7. [P2 README.md](p2/README.md "My p2 README.md file")
+	- Client/server side validation
+	- Validate data entries
+	- Modify data entries (add, delete, update)
